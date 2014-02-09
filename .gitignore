@@ -1,0 +1,26 @@
+# SBT
+boot/
+lib_managed/
+src_managed/
+test-output/
+target/
+.history
+
+# Eclipse
+.cache
+.classpath
+.project
+.scala_dependencies
+.settings
+.target/
+.history
+
+# Mac
+.DS_Store
+
+# Other
+*.pyc
+application.log
+p3-users/dist
+p3-panel/dist
+RUNNING_PID
