@@ -21,6 +21,6 @@ I ran three test runs, and broke even with each lottery pick. It's a rather unus
 
 I ended up diving heavily back into development of Platform3 and will continue work on Pathmax in the near future. However, here are some very helpful Scala libraries that I found for future inclusion and code inspiration:
 
-+ <b>Probability Monad</b>. https://github.com/jliszka/probability-monad
-+ <b>Malakov</b>. https://github.com/runarorama/Malakov
-+ <b>Breeze</b>. https://github.com/scalanlp/breeze  
++ <b>Probability Monad</b>. [https://github.com/jliszka/probability-monad](https://github.com/jliszka/probability-monad)
++ <b>Malakov</b>. [https://github.com/runarorama/Malakov](https://github.com/runarorama/Malakov)
++ <b>Breeze</b>. [https://github.com/scalanlp/breeze](https://github.com/scalanlp/breeze)  
