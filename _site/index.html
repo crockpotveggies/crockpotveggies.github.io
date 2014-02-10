@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
       <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
     <title>crockpotveggies</title>
 
     <meta name="description" content="The website of Justin Long. Crockpotveggies is a collection of notes about Justin's own projects.">
@@ -51,7 +54,7 @@
           <div class="row">
             <div class="col-md-12 col-xs-12">
               <div class="head-item text-center head-bottom animated">
-                <h6><img src="/img/carrots.png"></h6>
+                <h6><a href="/"><img src="/img/carrots.png"></a></h6>
               </div>
             </div>
           </div>
@@ -65,13 +68,43 @@
           <div class="block-head">
             <h2 class="entry-title">
             
-                <a href="/index.html">crockpotveggies</a>
-            
-            
-                <a href="/1970/01/01/placeholder-post.html">Placeholder post</a>
+                <a href="/2014/02/09/pathmax-scala-distribution-analysis.html">Pathmax - Analyzing Distributions with Scala</a>
             
             </h2>
-            <div class="entry-content"><p><strong>Placeholder post</strong> written in markdown.</p></div>
+            <div class="row entry-content">
+              <div class="col-md-2 col-xs-2"></div>
+              <div class="col-md-8 col-xs-8">
+                <p>Last year I began undertaking the massive build of Platform3. This was to be a new platform that would flagship 3 Tier Logic. I was working with two other programmers and we knew we had to teach ourselves some new skills fast so we could support the data analysis that we promised. At home, I began playing with different Scala math libraries and found an interesting number problem: lottery numbers.</p>
+
+<p>I built Pathmax as a standalone Play! application to load lottery data from the Lotto649 website and save it to a local Riak instance. I wanted to be able to analyze the distributions of numbers and also look at probabilities of numbers appearing after each other. I also wanted an easy-to-use interface so if I wanted to build on the app later I could easily modify it.</p>
+
+<p><img src="/uploads/pathmax_screenshot.png" class="thumbnail col-md-12"></p>
+
+<p>I wrote multiple functions that allowed me to look for patterns in the data. I specifically wanted to calculate probabilities of numbers repeating themselves. It was my goal to then use these probabilities to help me make picks in lottery numbers and then develop an algorithm. I haven't yet had the time to produce the algorithm, but testing did prove interesting!</p>
+
+<p><img src="/uploads/pathmax_screenshot2.png" class="thumbnail col-md-12"></p>
+
+<p>I ran three test runs, and broke even with each lottery pick. It's a rather unusual event, but I did catch a couple of interesting properties of the game:</p>
+
+<ul>
+<li><b>Picks are random</b>. No way to fully predict lottery numbers using the standard "ball machines".</li>
+<li><b>Columns have distributions</b>. Lottery numbers broken down by column have clear patterns, which can assist with picks.</li>
+<li><b>Reminds me of Simpson's Paradox</b>. Very significant distributions are observable in the first and last columns.</li>
+</ul>
+
+
+<p>I ended up diving heavily back into development of Platform3 and will continue work on Pathmax in the near future. However, here are some very helpful Scala libraries that I found for future inclusion and code inspiration:</p>
+
+<ul>
+<li><b>Probability Monad</b>. https://github.com/jliszka/probability-monad</li>
+<li><b>Malakov</b>. https://github.com/runarorama/Malakov</li>
+<li><b>Breeze</b>. https://github.com/scalanlp/breeze</li>
+</ul>
+
+
+              </div>
+              <div class="col-md-2 col-xs-2"></div>
+            </div>
           </div>
         </div>
       
@@ -80,8 +113,21 @@
             
             <div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2">
               <div class="service-item animated animation flipInY">
-                <h4><a href="/1970/01/01/placeholder-post.html">Placeholder post</a></h4>
-                <p><p><strong>Placeholder post</strong> written in markdown.</p></p>
+                <a href="/2014/02/09/pathmax-scala-distribution-analysis.html">
+                  <h4>Pathmax - Analyzing Distributions with Scala</h4>
+                  <p><p>Last year I began undertaking the massive build of Platform3. This was to be a new platform that would flagship 3 Tier Logic. I was working with two other programmers and we knew we had to teach ourselves some new skills fast so we could support the data analysis that we promised. At home, I began playing with different Scala math libraries and found an interesting number problem: lottery numbers.</p>
+</p>
+                </a>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2">
+              <div class="service-item animated animation flipInY">
+                <a href="/2014/02/09/a-new-blog.html">
+                  <h4>A New Blog</h4>
+                  <p><p>I've been so busy heads down working this last year I haven't had a chance to share anything new. So behold, a new website with an old and familiar name.</p>
+</p>
+                </a>
               </div>
             </div>
             
@@ -151,7 +197,7 @@
         </form>
         <div class="slider-button">
           <!-- Link with Image -->
-          <a href="#"><img src="img/contact.png" class="img-responsive" alt=""/></a>
+          <a href="#"><img src="/img/contact.png" class="img-responsive" alt=""/></a>
         </div>
       </div>
     </div>  

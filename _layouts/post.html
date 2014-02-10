@@ -1,9 +1,20 @@
 ---
 layout: default
-title: This is just a placeholder post
 ---
-
-<h1>{{ post.title }}</h1>
-
-{{ content }}
+      <div class="status block text-center">
+          <div class="block-head">
+            <h2 class="entry-title">
+            {% if page.title %}
+                <a href="{{ root_url }}{{ post.url }}">{{ page.title }}</a>
+            {% endif %}
+            </h2>
+            <div class="row entry-content">
+              <div class="col-md-2 col-xs-2"></div>
+              <div class="col-md-8 col-xs-8">
+                {{ content }}
+              </div>
+              <div class="col-md-2 col-xs-2"></div>
+            </div>
+          </div>
+        </div>
 
