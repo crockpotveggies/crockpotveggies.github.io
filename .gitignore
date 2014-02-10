@@ -5,6 +5,7 @@ src_managed/
 test-output/
 target/
 .history
+_site/
 
 # Eclipse
 .cache
