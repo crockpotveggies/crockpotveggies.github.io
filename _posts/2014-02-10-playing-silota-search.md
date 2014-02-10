@@ -3,9 +3,9 @@ layout: post
 title: Playing with Silota Search
 ---
 
-If there's one feature that can make-or-break data analysis it's facets. At the end of last year I started integrating [Silota Search](http://silota.com) into our software platform at work, Platform3.
+If there's one feature that can make-or-break data analysis, it's facets. At the end of last year I started integrating Silota Search into our software platform at work, Platform3.
 
-The creator of Silota crafted the name from "Silo Data". Silota acts as an information silo that indexes your data and provides a memory-based search API where you can query based on multiple features including:
+The creator of [Silota](http://silota.com) crafted the name from "Silo Data". [Silota](http://silota.com) acts as an information silo that indexes your data and provides a memory-based search API where you can query based on multiple features including:
 
 + <b>Geo-bounds</b>
 + <b>Facets</b>
