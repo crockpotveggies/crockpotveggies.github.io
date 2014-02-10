@@ -3,7 +3,7 @@ layout: post
 title: Pathmax - Analyzing Distributions with Scala
 ---
 
-Last year I began undertaking the massive build of Platform3. This was to be a new platform that would flagship 3 Tier Logic. I was working with two other programmers and we knew we had to teach ourselves some new skills fast so we could support the data analysis that we promised. At home, I began playing with different Scala math libraries and found an interesting number problem: lottery numbers.
+Last year I began the massive undertaking of building the Platform3 software at work. Myself and two other developers needed to boost our number analysis skills quick. So I discovered an interesting dataset: lottery numbers.
 
 I built Pathmax as a standalone Play! application to load lottery data from the Lotto649 website and save it to a local Riak instance. I wanted to be able to analyze the distributions of numbers and also look at probabilities of numbers appearing after each other. I also wanted an easy-to-use interface so if I wanted to build on the app later I could easily modify it.
 

@@ -7,18 +7,6 @@ title: crockpotveggies
       {% assign content = post.content %}
       {% include post_detail.html %}
       
-      <div class="service block text-center">
-          <div class="row">
-            {% for post in site.posts %}
-            <div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2">
-              <div class="service-item animated animation flipInY">
-                <a href="{{ post.url }}">
-                  <h4>{{ post.title }}</h4>
-                  <p>{{ post.excerpt }}</p>
-                </a>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
+      
+      {% include post_latest.html %}
           

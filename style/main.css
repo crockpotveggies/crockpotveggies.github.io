@@ -38,6 +38,10 @@ hr{
 
 }
 
+pre{
+  text-align:left !important;
+}
+
 :focus {
 	outline:none;
 }
@@ -47,6 +51,11 @@ hr{
 }
 
 /* Basic CSS ends */
+
+.justify{
+  text-align:justify;
+  text-justify:inter-word;
+}
 
 .container{
 	width:100%;
@@ -86,6 +95,7 @@ hr{
 
 .block-head ul>li {
   list-style-type:none;
+  margin-left: -10px;
 }
 
 /* Colors */
