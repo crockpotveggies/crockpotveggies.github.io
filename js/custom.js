@@ -1,10 +1,5 @@
 
-/* prettyPhoto Gallery */
-
-jQuery(".prettyphoto").prettyPhoto({
-   overlay_gallery: false, social_tools: false
-});
-  
+  /* Animation */
 $('.main-head').addClass('animation bounceIn');
 	
 $('.head-bottom').waypoint(function(down) {
@@ -16,6 +11,25 @@ $('.contact-social').waypoint(function(down) {
 	$(this).addClass('animation');
 	$(this).addClass('fadeInDown');
 }, { offset: '70%' });
+
+
+  /* Mixpanel tracking */
+
+$(function(){
+  new MixpanelScrollTracker({
+    attribute: 'section',
+    event: 'Scrolled to',
+    markers: [
+      { position: 200, value: 'Near Top' },
+      { position: 700, value: 'Content Beginning' },
+      { position: 1200, value: 'Content Middle' }
+    ]
+  });
+      
+  mixpanel.track_links("#social_twitter", "Click", {referrer: document.referrer, link_type: "social", link_channel: "twitter"});
+  mixpanel.track_links("#social_github", "Click", {referrer: document.referrer, link_type: "social", link_channel: "github"});
+  mixpanel.track_links("#social_linkedin", "Click", {referrer: document.referrer, link_type: "social", link_channel: "linkedin"});
+});
 
 
   /* Scroll to GoTop */
