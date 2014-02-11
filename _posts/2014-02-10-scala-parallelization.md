@@ -9,7 +9,7 @@ If you are taking a large collection that is at least 50,000 members long odds a
 
 Import <code>scala.collection.parallel._</code> and you will also import the default thread executor. Very important: parallelization is not ideal if the order of the collection matters to you.
 
-Here's a sample that also uses a TaskForkManager to boost the number of threads to 8.
+Here's a sample that also uses task support to boost the number of threads to 8.
 
 <pre>
 val list = (1 to 50000)
