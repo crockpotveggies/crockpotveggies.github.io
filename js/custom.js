@@ -32,7 +32,9 @@ $(function(){
   mixpanel.track_links("#social_github", "Click", {referrer: document.referrer, link_type: "social", link_channel: "github"});
   mixpanel.track_links("#social_linkedin", "Click", {referrer: document.referrer, link_type: "social", link_channel: "linkedin"});
   
-  mixpanel.track_links("#header_title", "Click", {referrer: document.referrer, click_type: "ui"});
+  $("#header_title").click(function(){
+    mixpanel.track("Click", {referrer: document.referrer, click_type: "ui", ui_element: "header_title"});
+  });
 });
 
 
