@@ -25,10 +25,14 @@ $(function(){
       { position: 1200, value: 'Content Middle' }
     ]
   });
+  mixpanel.track_links("#header_carrots", "Click", {referrer: document.referrer, link_type: "nav"});
+  mixpanel.track_links(".blog_snippet", "Click", {referrer: document.referrer, link_type: "nav"});
       
   mixpanel.track_links("#social_twitter", "Click", {referrer: document.referrer, link_type: "social", link_channel: "twitter"});
   mixpanel.track_links("#social_github", "Click", {referrer: document.referrer, link_type: "social", link_channel: "github"});
   mixpanel.track_links("#social_linkedin", "Click", {referrer: document.referrer, link_type: "social", link_channel: "linkedin"});
+  
+  mixpanel.track_links("#header_title", "Click", {referrer: document.referrer, click_type: "ui"});
 });
 
 
