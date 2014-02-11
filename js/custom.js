@@ -16,6 +16,10 @@ $('.contact-social').waypoint(function(down) {
   /* Mixpanel tracking */
 
 $(function(){
+  if(typeof $.cookie('mixpanel_tracking')!='undefined') mixpanel.disable();
+  
+  mixpanel.track_pageview();
+  
   new MixpanelScrollTracker({
     attribute: 'section',
     event: 'Scrolled to',
@@ -25,6 +29,7 @@ $(function(){
       { position: 1200, value: 'Content Middle' }
     ]
   });
+  
   mixpanel.track_links("#header_carrots", "Click", {referrer: document.referrer, link_type: "nav"});
   mixpanel.track_links(".blog_snippet", "Click", {referrer: document.referrer, link_type: "nav"});
       
@@ -34,6 +39,26 @@ $(function(){
   
   $("#header_title").click(function(){
     mixpanel.track("Click", {referrer: document.referrer, click_type: "ui", ui_element: "header_title"});
+  });
+});
+
+  /* Debug bar */
+ 
+$(function(){
+  $(document).bind('keydown', 'ctrl+l', function(){
+    console.log("Toggling debug bar.")
+    $('#debug_bar').toggle();
+  });
+  
+  $("#debug_tracking_disable").click(function(){
+    $.cookie('mixpanel_tracking','disabled');
+    mixpanel.disable();
+    console.log("Mixpanel has been disabled.");
+  });
+  $("#debug_tracking_enable").click(function(){
+    $.removeCookie('mixpanel_tracking');
+    mixpanel.init();
+    console.log("Mixpanel is being re-enabled.");
   });
 });
 
