@@ -45,11 +45,6 @@ $(function(){
   /* Debug bar */
  
 $(function(){
-  $(document).bind('keydown', 'ctrl+l', function(){
-    console.log("Toggling debug bar.")
-    $('#debug_bar').toggle();
-  });
-  
   $("#debug_tracking_disable").click(function(){
     $.cookie('mixpanel_tracking','disabled');
     mixpanel.disable();
