@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimizing UI Behavior with Mixpanel
+title: Optimizing Behaviors on Crockpotveggies
 ---
 
 Unless you've opened the inspector while visiting this website you probably haven't noticed that I'm tracking scrolls and clicks.
@@ -17,4 +17,8 @@ I created a free account on Mixpanel and integrated a scrolling library to get t
 
 I then used these waypoints to make a funnel that shows how encouraged visitors were to click on my social icons. It can demonstrate a couple things, including how interested a user *actually* is in the content.
 
-The website is fresh, so I obviously need to spread the word to attract more visitors. But so far it looks like I need to either write more interesting content or reconsider the placement of those icons...if I actually want clicks on them. ;)
+<img src="/uploads/mixpanel_edit_funnel.png">
+
+Creating the funnel was actually dead simple. There's not a whole of configuration required. I could get even more complicated and add more "scroll" waypoints...but there's a limit to how much data is actually relevant.
+
+The website is fresh, so I obviously need to spread the word to attract more visitors. Sample size is not big enough. But so far it looks like I need to either write more interesting content or reconsider the placement of those icons...if I actually want clicks on them. ;)
