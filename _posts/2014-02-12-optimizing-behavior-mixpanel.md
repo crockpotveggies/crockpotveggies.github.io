@@ -17,7 +17,7 @@ I created a free account on Mixpanel and integrated a scrolling library to get t
 
 I then used these waypoints to make a funnel that shows how encouraged visitors were to click on my social icons. It can demonstrate a couple things, including how interested a user *actually* is in the content.
 
-<img src="/uploads/mixpanel_edit_funnel.png">
+<img src="/uploads/mixpanel_edit_funnel.png" class="thumbnail col-md-12">
 
 Creating the funnel was actually dead simple. There's not a whole of configuration required. I could get even more complicated and add more "scroll" waypoints...but there's a limit to how much data is actually relevant.
 
