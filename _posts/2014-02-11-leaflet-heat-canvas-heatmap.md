@@ -21,4 +21,4 @@ var heatmap = L.heatLayer(d.locations.data, {
 
 The above fits on one line easily, and in fact I can inititialize it with a simple <code>L.heatLayer(data).addTo(map)</code>. It was just released at the end of January 2014, and I'm hoping the Leaflet's primary developer will continue to work on it.
 
-Grab the files on [Leaflet's GitHub](https://github.com/Leaflet/Leaflet.heat).
+Leaflet.heat is based on [SimpleHeat](https://github.com/mourner/simpleheat). Grab the files on [Leaflet's GitHub](https://github.com/Leaflet/Leaflet.heat).
