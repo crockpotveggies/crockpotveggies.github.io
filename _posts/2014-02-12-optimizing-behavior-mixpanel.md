@@ -9,7 +9,7 @@ I just threw up this website not too long ago and I wanted to see if visitors we
 
 <img src="/uploads/mixpanel_click_funnel.png" class="thumbnail col-md-12">
 
-I created a free account on Mixpanel and integrated a scrolling library to get the job done. I set up a couple "waypoints" of scrolling I wanted to track.
+I created a free account on Mixpanel and integrated a scrolling library to get the job done. I set up a few "waypoints" of scrolling I wanted to track.
 
 + Top of page
 + Beginning of content
