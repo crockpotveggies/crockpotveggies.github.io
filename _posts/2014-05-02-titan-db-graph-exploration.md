@@ -22,8 +22,9 @@ Our basic stack looks like this:
 + Spark-Streaming
 + TitanDB
 + HBase
++ (Next Phase) GraphLab
 
-We've got plans to add a more complex computational layer, and we'll be using tools like Gremlin to write our own domain-specific DSL. But what about our data structure? I can't share specifics (company IP) but we're using <a href="https://github.com/thinkaurelius/titan/wiki/Vertex-Centric-Indices">vertex-centric indices</a>. This is a bit more advanced than the node/edge structure since we can create vertex edges, and assign properties to those edges. However, we decided this was the best way to squeeze more juice out of our data.
+We've got plans to add a more complex computational layer and graph analysis using GraphLab, and we'll be using tools like Gremlin to write our own domain-specific DSL. But what about our data structure? I can't share specifics (company IP) but we're using <a href="https://github.com/thinkaurelius/titan/wiki/Vertex-Centric-Indices">vertex-centric indices</a>. This is a bit more advanced than the node/edge structure since we can create vertex edges, and assign properties to those edges. However, we decided this was the best way to squeeze more juice out of our data.
 
 Below is some sample code taken from the Titan wiki using Gremlin Groovy. Of course, we'll naturally be writing it in Scala for Platform3 as we build this out.
 <pre>
