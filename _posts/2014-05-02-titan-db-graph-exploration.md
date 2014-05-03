@@ -18,9 +18,10 @@ Enter TitanDB. Developed by Aurelius, Titan is a maturing distributed graph data
 How did it fit our engineering problem? As a company we're very interested in behavior and properties of an individual person. We enjoy clustering of relationships, and understanding diffusion of information. This is what fuels our product Platform3. However, we're very much conerned with performance. Our original architecture is already proving to be limited in performance and we want to push the limits of questions we can ask of the data.
 
 Our basic stack looks like this:
-- Spark-Streaming
-- TitanDB
-- HBase
+
++ Spark-Streaming
++ TitanDB
++ HBase
 
 We've got plans to add a more complex computational layer, and we'll be using tools like Gremlin to write our own domain-specific DSL. But what about our data structure? I can't share specifics (company IP) but we're using <a href="https://github.com/thinkaurelius/titan/wiki/Vertex-Centric-Indices">vertex-centric indices</a>. This is a bit more advanced than the node/edge structure since we can create vertex edges, and assign properties to those edges. However, we decided this was the best way to squeeze more juice out of our data.
 
