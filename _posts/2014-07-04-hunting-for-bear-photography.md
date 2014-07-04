@@ -22,3 +22,5 @@ I did some research on how I could detect a bear. I figured I'd need to attract 
 (Credit to @earlvontapia for night photo above)
 
 If you haven't been to Duffey Lake Provincial Park it's an area well worth exploring. There are huts everywhere throughout the park, half of those that don't require a reservation. There are a lot of old lakes that were carved out by ancient glaciers sliding down from the mountains. And the scenery is insane.
+
+I'll post an update here on whether I get any results. I'm sure I'll get at least a curious squirrel.
