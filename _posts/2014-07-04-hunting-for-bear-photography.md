@@ -17,6 +17,8 @@ I did some research on how I could detect a bear. I figured I'd need to attract 
 + angling camera downwards at distance of 20ft away
 + cleaning up the site to prevent future bear visits
 
+<b>Update:</b> I found out as per the BC Wildlife Act it is discouraged to place attractants for "dangerous wildlife". So as per regulation I'll need to be strategic in how I find the bear. This will require searching for prime habitat without leaving food. May not be as difficult if I can spot the right vegetation.
+
 <img src="/uploads/steepcreek.jpg">
 
 (Credit to @earlvontapia for night photo above)
