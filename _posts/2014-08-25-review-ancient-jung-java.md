@@ -7,7 +7,7 @@ At 3 Tier Logic I've been building a prototype for a future product behind the s
 
 Jung is an interesting project that, although it last saw love in 2010, was very helpful in demonsrating a proof of concept. It's last major version upgrade bumped it to version 2 and it seems that the original contributors have since abandoned the project. However, it's possible it was abandoned due to the reason that it is a very mature Java library. The only additional development I'd consider is parallelizing many of its operations and finding ways to make it scale with ease.
 
-Jung has a full suite of algorithms that are available in sub-projects. It also has a very interesting visualization library that is meant for Java applets - something I did not use. However given its maturity and Java backbone, I found it very performant for smaller graphs. A blogger was very nice enough to put together <a href="http://daniele-quercia.blogspot.ca/2009/02/importance-algorithms-by-jung.html" target="_blank">this detailed page</a> explaining the usage of each importance algorithm built in.
+Jung has a full suite of algorithms that are available in sub-projects. A blogger was very nice enough to put together <a href="http://daniele-quercia.blogspot.ca/2009/02/importance-algorithms-by-jung.html" target="_blank">this detailed page</a> explaining the usage of each importance algorithm. It also has a very interesting visualization library that is meant for Java applets - something I did not use. However given its maturity and Java backbone, I found it very performant for smaller graphs.
 
 <img src="/uploads/junggraph.png">
 
