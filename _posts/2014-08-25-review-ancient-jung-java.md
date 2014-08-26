@@ -9,9 +9,9 @@ Jung is an interesting project that, although it last saw love in 2010, was very
 
 Jung has a full suite of algorithms that are available in sub-projects. It also has a very interesting visualization library that is meant for Java applets - something I did not use. However given its maturity and Java backbone, I found it very performant for smaller graphs.
 
-<img src="/uploads/junggraph.jpg">
+<img src="/uploads/junggraph.png">
 
-I was able to produce graphs such as the above in less than one second, and also use advanced Centrality algorithms on the same graph in a similar tolerable performance: averaging 0.5 seconds for PageRank across all nodes. Another blogger was very nice enough to put together <a href="http://daniele-quercia.blogspot.ca/2009/02/importance-algorithms-by-jung.html" target="_blank">this detailed page</a> explaining the usage of each algorithm. In true Java fashion you have to call additional methods after initializing your algorithm to get them to work. I'm still unsure whether I liked this or not.
+I was able to produce graphs such as the one above in less than a second, and also use advanced Importance algorithms on the same graph in a similar tolerable performance: averaging 0.5 seconds for PageRank across all nodes. Another blogger was very nice enough to put together <a href="http://daniele-quercia.blogspot.ca/2009/02/importance-algorithms-by-jung.html" target="_blank">this detailed page</a> explaining the usage of each algorithm. In true Java fashion you have to call additional methods after initializing your algorithm to get them to work. I'm still unsure whether I liked this style or not.
 
 Unlike some other open-source graph libraries, Jung allows you to easily set your own custom types. I found coding these APIs just as easy in Scala as compared to Java.
 
