@@ -15,7 +15,7 @@ I was able to produce graphs such as the one above in less than a second, and al
 
 Unlike some other open-source graph libraries, Jung allows you to easily set your own custom types. I found coding these APIs just as easy in Scala as compared to Java.
 
-<code>
+<pre>
   /**
    * factory method for new graphs
    * @return a DirectedSparseMultigraph that uses UserVertex for nodes and RelationshipEdge for edges
@@ -23,7 +23,7 @@ Unlike some other open-source graph libraries, Jung allows you to easily set you
   def graphFactory: DirectedSparseMultigraph[UserVertex, RelationshipEdge] = {
     new DirectedSparseMultigraph[UserVertex, RelationshipEdge]()
   }
-</code>
+</pre>
 
 Some caveats that were a bummer, meaning I could not put it into production:
 
