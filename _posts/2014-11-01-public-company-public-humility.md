@@ -5,7 +5,7 @@ title: Public Company; Our Humility
 
 Not nearly as big as a Facebook- IPO, our company, 3 Tier Logic, will be publicly traded starting November 10. I'm about to make a big change in my own life and I have no idea how it will play out.
 
-<img src="/uploads/berniemadoff.jpg" alt="Floor of NYSE, by Christine Puccio">
+<img src="/uploads/nyse_floor.jpg" alt="Floor of NYSE, by Christine Puccio">
 
 Although this is an exciting experience, I can't help but feel obligated to say this isn't a measure of success. Quite the opposite. There are so many people who get excited when they get "funding", and for good reason. But after being in the tech scene for a while now, I know narcissism runs plenty. There couldn't be a more important moment to think back say, "I came from a humble place. It was humility that got me here today."
 
