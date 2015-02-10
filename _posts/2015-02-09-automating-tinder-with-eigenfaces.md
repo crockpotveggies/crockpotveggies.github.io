@@ -22,6 +22,69 @@ Dubbed "Tinderbox", the first version only took 3 weeks to build. It uses an exi
 
 <a href="https://en.wikipedia.org/wiki/Eigenface">Eigenface</a> is a quick and easy algorithm to implement facial recognition without the use of complex software like OpenCV. Tinderbox first extracts faces using the Viola-Jones framework - specifically the <a href="https://github.com/tc/jviolajones">jViolaJones</a> implementation - and converts them to grayscale. Only pictures with single, identifiable faces are used (to filter out false positives). Then after each image is normalized, its pixels are converted into a matrix where they are then appended to a list of models. The models are then averaged into a single face used for future comparison (as noted in the workflow above). The bot requires you to make 60 yes/no choices before it has enough data to choose on your behalf. Then its on full auto-pilot.
 
+If you're interested in the code behind this, here's a snippet of the two main defs for computing Eigenfaces:
+
+<pre>
+  /**
+   * Computes the EigenFaces matrix using a pixel matrix of multiple images.
+   * @param pixelMatrix
+   * @param meanColumn
+   */
+  def computeEigenFaces(pixelMatrix: Array[Array[Double]], meanColumn: Array[Double]): DoubleMatrix2D = {
+    val diffMatrix = MatrixHelpers.computeDifferenceMatrixPixels(pixelMatrix, meanColumn)
+    val covarianceMatrix = MatrixHelpers.computeCovarianceMatrix(pixelMatrix, diffMatrix)
+    val eigenVectors = MatrixHelpers.computeEigenVectors(covarianceMatrix)
+    computeEigenFaces(eigenVectors, diffMatrix)
+  }
+
+  /**
+   * Computes the EigenFaces matrix for a dataset of Eigen vectors and a diff matrix.
+   * @param eigenVectors
+   * @param diffMatrix
+   */
+  def computeEigenFaces(eigenVectors: DoubleMatrix2D, diffMatrix: Array[Array[Double]]): DoubleMatrix2D = {
+    val pixelCount = diffMatrix.length
+    val imageCount = eigenVectors.columns()
+    val rank = eigenVectors.rows()
+    val eigenFaces = Array.ofDim[Double](pixelCount, rank)
+
+    (0 to (rank-1)).foreach { i =>
+      var sumSquare = 0.0
+      (0 to (pixelCount-1)).foreach { j =>
+        (0 to (imageCount-1)).foreach { k =>
+          eigenFaces(j)(i) += diffMatrix(j)(k) * eigenVectors.get(i,k)
+        }
+        sumSquare += eigenFaces(j)(i) * eigenFaces(j)(i)
+      }
+      var norm = Math.sqrt(sumSquare)
+      (0 to (pixelCount-1)).foreach { j =>
+        eigenFaces(j)(i) /= norm
+      }
+    }
+    val eigenFacesMatrix = new DenseDoubleMatrix2D(pixelCount, rank)
+    eigenFacesMatrix.assign(eigenFaces)
+  }
+</pre>
+
+And computing the distance is just as easy:
+
+<pre>
+  /**
+   * Computes the distance between two images.
+   * @param pixels1
+   * @param pixels2
+   */
+  private def computeImageDistance(pixels1: Array[Double], pixels2: Array[Double]): Double = {
+    var distance = 0.0
+    val pixelCount = pixels1.length
+    (0 to (pixelCount-1)).foreach { i =>
+      var diff = pixels1(i) - pixels2(i)
+      distance += diff * diff
+    }
+    Math.sqrt(distance / pixelCount)
+  }
+</pre>
+
 If you're interested learning more about Eigenfaces, <a href="https://dl.dropboxusercontent.com/u/37572555/Github/Face%20Recognition/FaceRecognition.pdf">this paper</a> has a relatively good overview of the math/matrix operations as well as a selection process using k-nearest neighbor. The paper is a description of another Eigenface facial recognition system.
 
 I also added a couple of features that are now in the paid version of Tinder. For example, I have added an "undo" button in the event that a wrong swipe was made or the bot made a poor choice. Additionally, Tinderbox allows you to set your location to anywhere in the world for travel or curiosity purposes.
