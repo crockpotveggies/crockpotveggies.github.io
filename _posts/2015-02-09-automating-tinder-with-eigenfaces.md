@@ -3,7 +3,7 @@ layout: post
 title: Automating Tinder with Eigenfaces
 ---
 
-While my friends were getting sucked into "swiping" all day on their phones with Tinder, I eventually got fed up and designed a piece of software that automates <b>everything<b> on Tinder.
+While my friends were getting sucked into "swiping" all day on their phones with Tinder, I eventually got fed up and designed a piece of software that <b>automates everything on Tinder</b>.
 
 <img src="/uploads/tinderbox_screenshot.jpg" alt="Screenshot of Tinderbox">
 
@@ -20,7 +20,7 @@ Dubbed "Tinderbox", the first version only took 3 weeks to build. It uses an exi
 
 <img src="/uploads/tinderbox_eigenfaces_models.jpg" alt="Tinderbox Eigenfaces">
 
-<a href="https://en.wikipedia.org/wiki/Eigenface">Eigenface</a> is not a new facial recognition algorithm, but is a convenient and quick way to implement facial recognition without the use of complex dependencies like OpenCV. Tinderbox first extracts faces using the Viola-Jones framework - specifically the <a href="https://github.com/tc/jviolajones">jViolaJones</a> implementation - and converts them to grayscale. Only pictures with single, identifiable faces are used (to filter out false positives). Then after each image is normalized, its pixels are converted into a matrix where they are then appended to a list of models. The models are then averaged into a single face used for future comparison (as noted in the workflow above).
+<a href="https://en.wikipedia.org/wiki/Eigenface">Eigenface</a> is not a new facial recognition algorithm, but is a convenient and quick way to implement facial recognition without the use of complex dependencies like OpenCV. Tinderbox first extracts faces using the Viola-Jones framework - specifically the <a href="https://github.com/tc/jviolajones">jViolaJones</a> implementation - and converts them to grayscale. Only pictures with single, identifiable faces are used (to filter out false positives). Then after each image is normalized, its pixels are converted into a matrix where they are then appended to a list of models. The models are then averaged into a single face used for future comparison (as noted in the workflow above). The bot requires you to make 60 yes/no choices before it has enough data to choose on your behalf. Then its on full auto-pilot.
 
 If you're interested learning more about Eigenfaces, <a href="https://dl.dropboxusercontent.com/u/37572555/Github/Face%20Recognition/FaceRecognition.pdf">this paper</a> has a relatively good overview of the math/matrix operations as well as a selection process using k-nearest neighbor. The paper is a dsecription of an Eigenface facial recognition system.
 
