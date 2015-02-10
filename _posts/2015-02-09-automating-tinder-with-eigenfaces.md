@@ -9,7 +9,7 @@ While my friends were getting sucked into "swiping" all day on their phones with
 
 Since Tinder’s rising popularity, including its use by Olympic athletes such as snowboarder Rebecca Torr, Tinder has achieved critical adoption as a launchpoint for singles meeting singles. Its rising popularity has encouraged a wave of "Tinderbot" inventions by nerds doing things such as "swiping right" for everyone near their location (and of course those pesky spammers). It wasn't my intention to "one-up" the competition, but using the facial recognition algorithm Eigenfaces I built a bot that learns when to swipe right (like a person) AND swipe left (dislike a person) AND start your conversations.
 
-Dubbed "Tinderbox", the first version only took 3 weeks to build. It uses an existing Tinder account and taps into Tinder APIs, which is nice so you don't have to create an entirely new account. Tinderbox includes a desktop recreation of the Tinder app, including the inbox and disovery preferences. The workflow is simple:
+Dubbed "Tinderbox", the first version only took 3 weeks to build. It uses an existing Tinder account and taps into Tinder APIs, which is nice so you don't have to create an entirely new account. Tinderbox recreates the Tinder app in your browser, including the inbox and discovery preferences. The workflow is simple:
 
 + The built-in bot builds facial models using your likes/dislikes
 + Bot examines profile images, cropping faces
