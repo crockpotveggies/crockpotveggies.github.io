@@ -18,7 +18,9 @@ $('.contact-social').waypoint(function(down) {
 $(function(){
   if(typeof $.cookie('mixpanel_tracking')!='undefined') mixpanel.disable();
   
-  mixpanel.track_pageview();
+  // had to comment this out since I totally wiped out my Mixpanel credits
+
+  /*mixpanel.track_pageview();
   
   new MixpanelScrollTracker({
     attribute: 'section',
@@ -39,7 +41,7 @@ $(function(){
   
   $("#header_title").click(function(){
     mixpanel.track("Click", {referrer: document.referrer, click_type: "ui", ui_element: "header_title"});
-  });
+  });*/
 });
 
   /* Debug bar */
