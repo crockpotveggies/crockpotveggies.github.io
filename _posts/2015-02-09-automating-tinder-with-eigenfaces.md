@@ -38,7 +38,7 @@ If you're interested in the code behind this, here's a snippet of the two main d
   }
 
   /**
-   * Computes the EigenFaces matrix for a dataset of Eigen vectors and a diff matrix.
+   * Computes the EigenFaces matrix for a dataset of Eigenvectors and a diff matrix.
    * @param eigenVectors
    * @param diffMatrix
    */
@@ -87,7 +87,7 @@ And computing the distance is just as easy:
 
 If you're interested learning more about Eigenfaces, <a href="https://dl.dropboxusercontent.com/u/37572555/Github/Face%20Recognition/FaceRecognition.pdf">this paper</a> has a relatively good overview of the math/matrix operations as well as a selection process using k-nearest neighbor. The paper is a description of another Eigenface facial recognition system.
 
-I also added a couple of features that are now in the paid version of Tinder. For example, I have added an "undo" button in the event that a wrong swipe was made or the bot made a poor choice. Additionally, Tinderbox allows you to set your location to anywhere in the world for travel or curiosity purposes.
+I also added a couple of features that are only in the paid version of Tinder. "Undo" buttons are there in the event a wrong swipe was made or the bot made a poor choice. Also, you can set your location to anywhere in the world for travel or curiosity purposes.
 
 The bot that runs in the background also has a messaging system that starts conversations. Using <a href="http://nlp.stanford.edu/">StanfordNLP</a>, the bot analyzes the sentiment of each chat response and classifies it as positive or negative. Using a "message tree" (see diagram below), the bot selects from pre-programmed chat messages as a response based on the sender's sentiment. This continues up to 3 replies until the user is notified that a chat is ready to enter. The advantage of this? It removes the time involved in filtering new Tinder matches since a lot of people tend to drop off and "go dark" early in the process. Extended conversation is a strong indicator of interest.
 
