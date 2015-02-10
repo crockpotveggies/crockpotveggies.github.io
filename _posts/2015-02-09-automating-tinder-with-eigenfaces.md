@@ -34,7 +34,7 @@ What are the results so far? The bot is amazingly effective. I would estimate an
 
 <img src="/uploads/tinderbox_dashboard.jpg" alt="Tinderbox Dashboard">
 
-What do girls think of the bot? I've gone on at least 10 dates with the help of the bot and I've shown my partners the bot in its entirety. One date literally didn't believe me and thought I was pulling her leg. Another person thought it was really cool and wanted the full tour. All were in agreement that it is *<b>not</b>* creepy, though some felt it was borderline. Totally understandable, especially since it is not something you'd come across everyday.
+What do girls think of the bot? I've gone on at least 10 dates with the help of the bot and I've shown my partners the bot in its entirety. One date literally didn't believe me and thought I was pulling her leg. Another person thought it was really cool and wanted the full tour. All were in agreement that it is *<b>not</b>* creepy, though some felt it was borderline. Kind of nice considering it's not something you'd come across everyday.
 
 Am I still using the bot? I've actually turned it off for now. Admittedly, it worked too well and started to conflict with work. Although in a couple cases I had follow-ups and I'm still seeing one person.
 
