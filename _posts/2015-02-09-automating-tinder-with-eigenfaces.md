@@ -5,6 +5,10 @@ title: Automating Tinder with Eigenfaces
 
 While my friends were getting sucked into "swiping" all day on their phones with Tinder, I eventually got fed up and designed a piece of software that <b>automates everything on Tinder</b>.
 
+<div class="well">
+  <b>An update on Tinderbox:</b> Tinderbox has always been a strictly fun project and I've been glad to share it with the community. From the beginning, I've stated that my support would be very limited. Moving forward, I'd like to openly communicate that I will be dropping any further support for the software. I'm happy that there has been so much interest and support, and moving forward I am putting my energy towards other very promising projects. The code will continue living on Github and feel free to fork it and edit it yourself. Happy Tindering!
+</div>
+
 <img src="/uploads/tinderbox_screenshot.jpg" alt="Screenshot of Tinderbox">
 
 Since Tinder’s rising popularity, including its use by Olympic athletes such as snowboarder Rebecca Torr, Tinder has achieved critical adoption as a launchpoint for singles meeting singles. Its rising popularity has encouraged a wave of "Tinderbot" inventions by nerds doing things such as "swiping right" for everyone near their location (and of course those pesky spammers). It wasn't my intention to "one-up" the competition, but using the facial recognition algorithm Eigenfaces I built a bot that learns when to swipe right (like a person) AND swipe left (dislike a person) AND start your conversations.
