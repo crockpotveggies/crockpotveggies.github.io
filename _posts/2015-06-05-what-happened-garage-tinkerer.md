@@ -7,6 +7,8 @@ While engaging in new research, I suddenly realized that our modern economy is h
 
 <img src="/uploads/michellabergereactor.jpg" alt="Michel Laberge standing in front of Fusion Reactor" />
 
+<em>Image credit: <a href="http://www.therac.ca/content/technology-powerhouse" target="_blank">therac.ca</a></em>
+
 So who is the Garage Tinkerer? Do you remember those crazy guys who were always experimenting and building crazy stuff in their garages? Maybe people like <a href="http://www.financialpost.com/story.html?id=2785016f-0338-4253-b594-aeee1ca49385&k=57937" target="_blank">Michel Laberge</a>, Colin Chapman, Elliot Handler, and the Lockheed brothers? The "Garage Tinkerer" tends to be an engineer with a lot of talent who just so happens to have a lot of space to tinker with technology - and sometimes build a large company. The garage tinkerer isn't always an entrepreneur, but is a very important part of the economy.
 
 The Garage Tinkerer is able to do those crazy experiments and build companies because he or she always had spacial security. An experiment or small business run inside a garage didn't often worry about external threats such as "moving" or the signing of a new lease. The garage was a sacred place where a small business could be safely created and the home was already cared for. And if the Garage Tinkerer's project grew even bigger, the economics to support moving into a large office space were in the Tinkerer's favor.
