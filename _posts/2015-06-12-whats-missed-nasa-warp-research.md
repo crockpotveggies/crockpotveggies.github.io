@@ -3,7 +3,7 @@ layout: post
 title: What's Missed in NASA's Warp Drive Research
 ---
 
-Much skepticism surrounds NASA's Eagleworks Lab and its work towards Warp technology. After spending the last six months playing catch-up on the field, we discovered a large oversight in the research.
+Much skepticism surrounds NASA's Eagleworks Lab and its Warp drive experiments. Spending the last six months playing catch-up on the field, we discovered a potentially large oversight in the early-stage research.
 
 <img src="/uploads/neutron_interferometer.png" alt="Neutron Interferometer Diagram" />
 
@@ -31,7 +31,7 @@ In Dr. White's defense, it is possible he considered the neutron interferometer 
 
 <em>Homemade tabletop fusor. Image credit: <a href="http://en.wikipedia.org/wiki/Fusor#/media/File:Homemade_fusion_reactor.JPG" target="_blank">Wikipedia</a>.</em>
 
-At first, I questioned the viability of building a tabletop neutron interferometer. I've pushed hard to discover ways to keep project costs humble and require experimentation to remain at the scale of a tabletop. Such a requirement means more time is allocated to research - and you don't need to fund your project with millions of dollars. In a day I set out to see if building a neutron interferometer was difficult. The biggest problem is that neutron interferometers require a <a href="http://en.wikipedia.org/wiki/Neutron_source" target="_blank">Neutron Source</a>. Turns out that <a href="http://en.wikipedia.org/wiki/Fusor" target="_blank">Fusors</a> can fit on a tabletop and can create 300,000 neutrons per second - maybe enough for our needs (though some prefer a high flux source). Once you have a viable neutron source, designing the neutron interferometer is straightforward.
+At first, I questioned the viability of building a tabletop neutron interferometer. I've pushed hard to discover ways to keep project costs humble and require experimentation to remain at the scale of a tabletop. Such a requirement means more time is allocated to research - and you don't need to fund your project with millions of dollars. In a day I set out to see if building a neutron interferometer was difficult. The biggest problem is that neutron interferometers require a <a href="http://en.wikipedia.org/wiki/Neutron_source" target="_blank">Neutron Source</a>. Turns out that <a href="http://en.wikipedia.org/wiki/Fusor" target="_blank">Fusors</a> can fit on a tabletop and can create 300,000 neutrons per second - maybe enough for our needs (though some prefer a high flux source such as a particle accelerator). Once you have a viable neutron source, designing the neutron interferometer is straightforward.
 
 <h3>In Context of Warp Research</h3>
 
