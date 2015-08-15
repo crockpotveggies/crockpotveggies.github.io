@@ -3,7 +3,7 @@ layout: post
 title: Hierarchical Categorization and Convolutional Neural Network Troubles
 ---
 
-I've been taking a stab at computer vision and convolutional neural networks. Interestingly, I discovered a hard-to-solve problem when images involved mixed classes of different importance.
+I've been taking a stab at computer vision and convolutional neural networks. Interestingly, I discovered a hard-to-solve problem when some classes contained features that indicated to multiple classes.
 
 Although there is a complicated way to engineer the problem out of this - namely Regions with Convolutional Neural Networks and Decision Trees - I wanted to see if it was possible to train a simpler convolutional neural network to understand categorical importance. Using a dataset of profile photos (demo'd here with hilarious mock photos of yours truly) I wanted to classify objects and facial expressions in the photos. In a toy model, I separated my dataset into the following classes:
 
