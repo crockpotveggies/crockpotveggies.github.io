@@ -49,7 +49,7 @@ layer_defs.push({type:'fc', num_neurons:20, activation:'relu'});
 layer_defs.push({type:'softmax', num_classes: categories});
 </pre>
 
-So what happens when we strip out the facial expression classes and introduce a new class that none of them ever contained?
+So what happens when we strip out the facial expression classes and introduce a new class that doesn't share any similar features?
 
 + faces with glasses
 + faces with sunglasses
