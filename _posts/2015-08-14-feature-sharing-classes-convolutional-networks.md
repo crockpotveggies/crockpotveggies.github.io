@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hierarchical Categorization and Convolutional Neural Network Troubles
+title: Feature Sharing in Classes and Convolutional Neural Network Troubles
 ---
 
 I've been taking a stab at computer vision and convolutional neural networks. Interestingly, I discovered a hard-to-solve problem when some classes contained features that indicated to multiple classes.
@@ -49,7 +49,7 @@ layer_defs.push({type:'fc', num_neurons:20, activation:'relu'});
 layer_defs.push({type:'softmax', num_classes: categories});
 </pre>
 
-So what happens when we strip out the facial expression classes and introduce a new class that doesn't share any similar features?
+In general, a smiling mouth is the number one feature of a "smile" class. However, that feature can also be seen in the training data where sunglasses are present. So what happens when we strip out the facial expression classes and introduce a new class that doesn't share any similar features to the glasses classes?
 
 + faces with glasses
 + faces with sunglasses
