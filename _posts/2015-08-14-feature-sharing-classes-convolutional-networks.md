@@ -14,7 +14,7 @@ Although there is a complicated way to engineer the problem out of this - namely
 
 <img src="/uploads/convnet_class_set1.jpg" alt="Classes Test Set 1" />
 
-So what's the flaw with the above? Faces that have glasses and sunglasses *can also contain smiles and excitement*. As the human trainer, I know that if the photo contains sunglasses and glasses, I need to categorize that feature as more important than the smile in the photo. Hence, the eyewear features are more important in hierarchy and should lead to that photo being classified as one of the glasses classes.
+So what's the flaw with the above? Faces that have glasses and sunglasses *can also contain smiles and excitement*. As the human trainer, I know that if the photo contains sunglasses and glasses, I need to classify that feature as more important than the smile in the photo. Hence, the eyewear features are more important in hierarchy and should lead to that photo being classified as one of the glasses classes. The same goes if the glasses are absent - the features of the mouth then determine the class of the photo.
 
 But, this doesn't happen. Although the glasses classes perform more accurately (though not optimally), the classes containing smiles or excitement are misclassified at a poor rate. It appears that because the glasses classes contain the same features as the facial expression classes, the neural network can't rank the features. This is a big limitation.
 
