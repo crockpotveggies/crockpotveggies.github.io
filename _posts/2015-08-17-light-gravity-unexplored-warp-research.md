@@ -13,7 +13,7 @@ In my <a href="http://crockpotveggies.com/2015/06/12/whats-missed-nasa-warp-rese
 
 Following this idea, the research became more interesting. So I'll separate this post into two main topics that are interrelated but interesting on their own.
 
-<h2>Gravity Produces Light</h2>
+<h3>Gravity Produces Light</h3>
 
 There's a developed field of research focused on gravitational waves producing light that <a href="http://www.jetp.ac.ru/cgi-bin/dn/e_014_01_0084.pdf" target="_blank">dates all the way back to 1962</a> that eventually sparked physicists to do the math on relationships between electromagnetism and gravity. This is important to our research because Dr. White at Eagleworks NASA proposed using a toroidal EM device to induce gravity. Finding an equation to help us exactly determine the gravitational potential of the EM field is key, since we need to plan how sensitive our interferometer will need to be in order to measure this effect. Luckily, research into Neutron Stars has given us some of the tools to explore this more properly.
 
@@ -35,7 +35,7 @@ The second idea is a lab experiment that shows photons can be grouped together. 
 
 Considering these topics together, there may be research of interest here to start putting these ideas together. If photons can be frozen and grouped together, there may be a technique to squeeze them. Currently, this is far beyond the scope of our immediate goals though it is of great interest.
 
-<h2>Two Unresolved Areas of Gravitational Research</h2>
+<h3>Two Unresolved Areas of Gravitational Research</h3>
 
 We're already aware of using Neutrons to detect gravitational waves, but what about working with electromagnetism and using EM itself to detect high-frequency gravitational waves? 
 
@@ -48,7 +48,7 @@ In another very interesting discovery, we realized that there is a line of resea
 
 This is far different than the line of Neutron Interferometer research that has proven to be more effective. What if the two fields started comparing notes? What would we discover?
 
-<h2>Moving Forward</h2>
+<h3>Moving Forward</h3>
 
 Unless we make more interesting discoveries, my next update will likely be our approximations for the actual gravitational potential of an EM source. Much work is needed to determine if this can match the sensitivity of a neutron interferometer, assuming we proceed with neutron interferometers as a primary measuring instrument.
 
