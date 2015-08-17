@@ -33,7 +33,7 @@ Now let's work backwards and start tying some concepts together for some specula
 
 The second idea is a lab experiment that shows photons can be grouped together. The Rydberg blockade is an effect where molecules can be frozen into "molecules" and was produced by a team from Harvard and MIT (see <i><a href="http://www.nature.com/nature/journal/v502/n7469/full/nature12512.html" target="_blank">Attractive photons in a quantum nonlinear medium</a></i>). The applications of this effect are not yet fully understood, though you could speculate this is a storage mechanism of photons.
 
-Considering these topics together, there may be research of interest here to start putting these ideas together. If photons can be frozen and grouped together, there may be a technique to squeeze them. Currently, this is far beyond the scope of our immediate goals though it is of great interest.
+Considering these topics together, there may be research of interest here to start looking at experimentation. If photons can be frozen and grouped together, there may be a technique to squeeze them. Currently, this is far beyond the scope of our immediate goals though it is of great interest.
 
 <h3>Two Unresolved Areas of Gravitational Research</h3>
 
