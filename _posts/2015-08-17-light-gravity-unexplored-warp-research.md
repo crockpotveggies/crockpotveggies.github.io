@@ -15,7 +15,7 @@ Following this idea, the research became more interesting. So I'll separate this
 
 <h3>Gravity Produces Light</h3>
 
-There's a developed field of research focused on gravitational waves producing light that <a href="http://www.jetp.ac.ru/cgi-bin/dn/e_014_01_0084.pdf" target="_blank">dates all the way back to 1962</a> that eventually sparked physicists to do the math on relationships between electromagnetism and gravity. This is important to our research because Dr. White at Eagleworks NASA proposed using a toroidal EM device to induce gravity. Finding an equation to help us exactly determine the gravitational potential of the EM field is key, since we need to plan how sensitive our interferometer will need to be in order to measure this effect. Luckily, research into Neutron Stars has given us some of the tools to explore this more properly.
+There's a developed field of research focused on gravitational waves producing light that <a href="http://www.jetp.ac.ru/cgi-bin/dn/e_014_01_0084.pdf" target="_blank">dates all the way back to 1962</a> that eventually sparked physicists to do the math on relationships between electromagnetism and gravity. This is important to our research because Dr. White at Eagleworks NASA proposed using a toroidal EM device to induce a space-time warp. Finding an equation to help us exactly determine the gravitational potential of the EM field is key, since we need to plan how sensitive our interferometer will need to be in order to measure this effect. Luckily, research into Neutron Stars has given us some of the tools to explore this more properly.
 
 <img src="/uploads/equation_timevaryinggravitationalpotential.png" alt="Time-varying Gravitational Potential" />
 
