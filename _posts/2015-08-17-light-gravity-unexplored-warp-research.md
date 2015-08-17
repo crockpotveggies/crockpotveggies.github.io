@@ -27,7 +27,7 @@ Our interest in this gravitational research triggered a tangent where we looked 
 
 <img src="/uploads/lightsqueezing.png" alt="Negative Energy Bursts Generated from Quantum Optical Squeezing" />
 
-<em>Image credit: Eric W. Davis and H. E. Puthoff.</em>
+<em>Quantum optical squeezing. Image credit: Eric W. Davis and H. E. Puthoff.</em>
 
 Now let's work backwards and start tying some concepts together for some speculation. If gravitational waves can produce light waves, then there's got to be a way to convert this back in the opposite direction. No idea how just yet, though two ideas may be applicable. The first is an idea propsed by Eric Davis in a paper called <i><a href="http://www.earthtech.org/publications/davis_STAIF_conference_1.pdf" target="_blank">Experimental Concepts for Generating Negative Energy in the Laboratory</a></i>. One of the concepts proposed in this paper is "quantum optical squeezing", where photons are squeezed together will produce negative energy bursts. Remember that in the Alcubierre metric, negative energy is required to create a "warp bubble".
 
