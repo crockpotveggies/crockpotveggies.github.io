@@ -42,7 +42,7 @@ We're already aware of using Neutrons to detect gravitational waves, but what ab
 In another very interesting discovery, we realized that there is a line of research that looks into using EM to accomplish this very goal. There seems to have been renewed interest in this field as of the 2000s, including details in papers like <a href="http://arxiv.org/pdf/gr-qc/0306013v1.pdf" target="_blank">this one</a> and <a href="http://arxiv.org/pdf/gr-qc/0308079.pdf" target="_blank">this one</a>. Though not much seems to have ben accomplished in this research, it does open the question as whether neutron interferometers can be replaced with an EM solution. It appears there are two inhibitors preventing this research from advancing: 
 
 <pre>
-1) There is a problem that EM equipment is behind detecting these gravitational waves by a factor of 4. 
+1) There is a problem that EM equipment is not sensitive enough to detect gravitational waves by a magnitude of 4. 
 2) The large cost of improving such EM equipment to bring it up to date.
 </pre>
 
