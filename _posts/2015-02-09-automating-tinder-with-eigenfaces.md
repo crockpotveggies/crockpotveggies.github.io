@@ -6,7 +6,7 @@ title: Automating Tinder with Eigenfaces
 While my friends were getting sucked into "swiping" all day on their phones with Tinder, I eventually got fed up and designed a piece of software that <b>automates everything on Tinder</b>.
 
 <div class="well">
-  <b>An update on Tinderbox:</b> Tinderbox has always been a strictly fun project and I've been glad to share it with the community. From the beginning, I've stated that my support would be very limited. Moving forward, I'd like to openly communicate that I will be dropping any further support for the software. I'm happy that there has been so much interest and support, and moving forward I am putting my energy towards other very promising projects. The code will continue living on Github and feel free to fork it and edit it yourself. Happy Tindering!
+  <b>An update on Tinderbox:</b> Well, I didn't think I'd do it. I even wrote in my post that I wouldn't. Nearly a year since I released Tinderbox, I finally decided to take a packaged approach and make the technology more available. I'd like to introduce <a href="http://www.bernie.ai/">Bernie A.I.</a>, a personified artificial intelligence that is the next evolution from this project. Bernie is be a mobile app that brings this to the phone, and you can sign up at <a href="http://www.bernie.ai">http://www.bernie.ai</a>. Although Tinderbox support is completely dropped, Bernie is a better project for me to focus my energy and maintain. Check it out!
 </div>
 
 <img src="/uploads/tinderbox_screenshot.jpg" alt="Screenshot of Tinderbox">
