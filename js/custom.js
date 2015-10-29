@@ -16,7 +16,10 @@ $('.contact-social').waypoint(function(down) {
   /* Mixpanel tracking */
 
 $(function(){
-  if(typeof $.cookie('mixpanel_tracking')!='undefined') mixpanel.disable();
+  if(typeof $.cookie('mixpanel_tracking')=='undefined') {
+    jQuery.scrollDepth();
+    riveted.init();
+  }
   
   // had to comment this out since I totally wiped out my Mixpanel credits
 
