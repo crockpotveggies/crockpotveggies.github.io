@@ -5,7 +5,7 @@ Designed by : http://responsivewebinc.com
 /* Basic CSS starts */
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	background:#ccc url('../img/body-back.png') center;
 	color:#777;
 	-webkit-font-smoothing: antialiased;
@@ -84,7 +84,7 @@ pre{
 }
 
 .block-head p{
-	font-size:14px;
+	font-size: 17px;
 	margin:0 auto 2em auto;
 	line-height:25px;
 	color:#838687;
