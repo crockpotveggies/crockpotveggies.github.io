@@ -26,11 +26,11 @@ p{
 }
 
 a{
-	color:#666;
+	color:#f75353;
 }
 
 a:hover{
-	color:#666;
+	color:#f75353;
 	text-decoration:none;
 }
 
@@ -84,6 +84,7 @@ pre{
 }
 
 .block-head p{
+	font-family: 'PT Sans', 'Open Sans', sans-serif;
 	font-size: 17px;
 	margin:0 auto 2em auto;
 	line-height:25px;
