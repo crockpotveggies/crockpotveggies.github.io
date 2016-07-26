@@ -6,8 +6,8 @@ Designed by : http://responsivewebinc.com
 
 body{
 	font-family: 'PT Sans', sans-serif;
-	background:#ccc url('../img/body-back.png') center;
-	color:#777;
+	background: #eee url('../img/body-back.png') center;
+	color: #343536;
 	-webkit-font-smoothing: antialiased;
 }
 
