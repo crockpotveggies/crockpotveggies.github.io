@@ -25,4 +25,8 @@ Bernie does everything the Tinderbox prototype did, and more. Bernie brings a mo
 
 Most of all, Bernie is more <em>accessible</em>. Bernie's mobile app has much more to offer than the Tinderbox prototype's web interface, and the Bernie team is working non-stop behind the scenes to keep features updated and ensure his algorithms are performing exactly as expected. Bernie reports his history via his "efforts", and if you feel like he made the wrong choice you can "undo" by swiping left and tapping the undo button. Each undone effort contributes to Bernie's training and makes him smarter.
 
+The burning question is, did I solve my own problem? The answer is a resounding yes. In the interest of privacy of my relationship, I won't be publishing too many details on the blog but I will leave you with a picture of myself with the most beautiful woman in the world... 😉
+
+<img src="/uploads/bernie_justinlove.jpg" alt="Bernie Dating Assistant | Justin in Love" />
+
 I couldn't be more excited by Bernie to see where he goes next. There's much more in the pipe to make him better, and the team and I are only just getting started...
