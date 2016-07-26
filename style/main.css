@@ -7,7 +7,7 @@ Designed by : http://responsivewebinc.com
 body{
 	font-family: 'PT Sans', sans-serif;
 	background: #eee url('../img/body-back.png') center;
-	color: #343536;
+	color: #545556;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -92,7 +92,7 @@ pre{
 	font-size: 17px;
 	margin:0 auto 2em auto;
 	line-height:25px;
-	color:#838687;
+	color:#545556;
 }
 
 .block-head ul{
