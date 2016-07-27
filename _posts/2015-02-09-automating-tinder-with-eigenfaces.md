@@ -9,7 +9,7 @@ While my friends were getting sucked into "swiping" all day on their phones with
   <b>An update on Tinderbox:</b> Well, I didn't think I'd do it. I even wrote in my post that I wouldn't. Nearly a year since I released Tinderbox, I finally decided to take a packaged approach and make the technology more available. I'd like to introduce <a href="http://www.bernie.ai/">Bernie A.I.</a>, a personified artificial intelligence that is the next evolution from this project. Bernie is be a mobile app that brings this to the phone, and you can sign up at <a href="http://www.bernie.ai">http://www.bernie.ai</a>. Although Tinderbox support is completely dropped, Bernie is a better project for me to focus my energy and maintain. Check it out! <a href="http://crockpotveggies.com/2016/07/26/automate-tinder-artificial-intelligence.html">I've also written an updated post about Bernie</a>.
 </div>
 
-<centter><img src="/uploads/tinderbox_screenshot.jpg" alt="Screenshot of Tinderbox" class="img-responsive thumbnail" /></center>
+<center><img src="/uploads/tinderbox_screenshot.jpg" alt="Screenshot of Tinderbox" class="img-responsive thumbnail" /></center>
 
 Since Tinder’s rising popularity, including its use by Olympic athletes such as snowboarder Rebecca Torr, Tinder has achieved critical adoption as a launchpoint for singles meeting singles. Its rising popularity has encouraged a wave of "Tinderbot" inventions by nerds doing things such as "swiping right" for everyone near their location (and of course those pesky spammers). It wasn't my intention to "one-up" the competition, but using the facial recognition algorithm Eigenfaces I built a bot that learns when to swipe right (like a person) AND swipe left (dislike a person) AND start your conversations.
 

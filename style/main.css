@@ -90,15 +90,17 @@ pre{
 }
 
 .block-head p{
-	margin:0 auto 2em auto;
+	margin:1em auto 1em auto;
 	color:#545556;
 }
 
 .block-head ul{
-  font-size:14px;
+	font-family: 'Open Sans';
+  font-size: 0.85em;
   margin:1em auto 3em auto;
-  line-height:25px;
+  line-height: 1.3;
   color:#434647;
+  padding: 0 10% 0 20%;
 }
 
 .block-head ul>li {
@@ -720,7 +722,7 @@ div.ppt {
 /* Testimonials starts */
 
 .testimonials{
-	padding-bottom:120px; 	
+	padding-bottom:60px; 	
 }
 
 .testimonials .test-item{
