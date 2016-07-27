@@ -5,7 +5,7 @@ title: Neutrons, Light, Gravity, and Unexplored Warp Research
 
 Our little warp research team has been making incremental progress towards reaching our goal of engineering an experimental setup. We discovered some mind-blowing concepts and some overlooked research.
 
-<img src="/uploads/binaryneutronsystem.jpg" alt="X-ray rings from a Binary Neutron Star captured by Chandra X-ray Observatory" />
+<center><img src="/uploads/binaryneutronsystem.jpg" alt="X-ray rings from a Binary Neutron Star captured by Chandra X-ray Observatory" class="img-responsive thumbnail" /></center>
 
 <em>Image credit: X-ray: NASA/CXC/Univ. of Wisconsin-Madison/S. Heinz, et al.</em>
 
@@ -25,7 +25,7 @@ We're using an equation by Preston Jones (see #21 in <a href="http://arxiv.org/p
 
 Our interest in this gravitational research triggered a tangent where we looked closer at the original 1962 paper above. Quoted directly, "From general relativity follows also the possibility of the inverse conversion of gravitational waves into light waves, but this problem is hardly of interest." Um...wait? Did I just read that!?
 
-<img src="/uploads/lightsqueezing.png" alt="Negative Energy Bursts Generated from Quantum Optical Squeezing" />
+<center><img src="/uploads/lightsqueezing.png" alt="Negative Energy Bursts Generated from Quantum Optical Squeezing" class="img-responsive thumbnail" /></center>
 
 <em>Quantum optical squeezing. Image credit: Eric W. Davis and H. E. Puthoff.</em>
 

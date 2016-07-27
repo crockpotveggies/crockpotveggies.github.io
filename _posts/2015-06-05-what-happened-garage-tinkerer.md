@@ -5,7 +5,7 @@ title: What Happened to the Garage Tinkerer?
 
 While engaging in new research, I suddenly realized that our modern economy is having a dramatic effect on urban life. Increasingly shrinking access to real estate is killing the Garage Tinkerer.
 
-<img src="/uploads/michellabergereactor.jpg" alt="Michel Laberge standing in front of Fusion Reactor" />
+<center><img src="/uploads/michellabergereactor.jpg" alt="Michel Laberge standing in front of Fusion Reactor" class="img-responsive thumbnail" /></center>
 
 <em>Image credit: <a href="http://www.therac.ca/content/technology-powerhouse" target="_blank">therac.ca</a></em>
 

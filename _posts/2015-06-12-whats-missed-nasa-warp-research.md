@@ -5,7 +5,7 @@ title: What's Missed in NASA's Warp Drive Research
 
 Much skepticism surrounds NASA's Eagleworks Lab and its Warp drive experiments. Spending the last six months playing catch-up on the field, we discovered a potentially large oversight in the early-stage research.
 
-<img src="/uploads/neutron_interferometer.png" alt="Neutron Interferometer Diagram" />
+<center><img src="/uploads/neutron_interferometer.png" alt="Neutron Interferometer Diagram" class="img-responsive thumbnail" /></center>
 
 <em>Neutron interferometer. Image credit: <a href="http://www.rpi.edu/dept/phys/Courses/PHYS6510/1367-2630_14_5_055010.pdf" target="_blank">Gravitation and quantum interference experiments with neutrons</a>.</em>
 
@@ -19,7 +19,7 @@ By the way, Colella and Overhauser <a href="http://www.sciencedirect.com/science
 
 Before I explain why this is such a large gap in White's work, I'll explain the mantra of our research group. I've always found it to be more productive in any research and development project to find the path of least resistance in the early stages. More often than not, someone has done groundwork that can reduce a year's worth of work into 3 months. Spending the extra time examining different methods, techniques, and asking knowledgeable experts from the field really pays off.
 
-<img src="/uploads/neutron_quantum_interferogram.png" alt="Gravitationally induced quantum interferogram" />
+<center><img src="/uploads/neutron_quantum_interferogram.png" alt="Gravitationally induced quantum interferogram" class="img-responsive thumbnail" /></center>
 
 <em>Image above shows a gravitationally induced quantum interferogram. Image credit: <a href="http://www.rpi.edu/dept/phys/Courses/PHYS6510/1367-2630_14_5_055010.pdf" target="_blank">Gravitation and quantum interference experiments with neutrons</a>.</em>
 
@@ -27,7 +27,7 @@ In this case, it is worthwhile to ask Dr. White to answer why he didn't consider
 
 In Dr. White's defense, it is possible he considered the neutron interferometer and didn't publicize his critical thinking. Additionally, there may be a lack of physicists at JPL - the home of Eagleworks - who understand neutron interferometers as intimately as laser interferometers (White sought assistance from a colleague when designing the White-Juday instrumentation). Additionally, when he shopped for advice in the early stages he had zero publicity, perhaps prompting physicists to dismiss the research. Nevertheless, rethinking the warp experiments with neutron interferometers is worth a look.
 
-<img src="/uploads/tabletop_fusor.jpg" alt="Tabletop Homemade Fusor" />
+<center><img src="/uploads/tabletop_fusor.jpg" alt="Tabletop Homemade Fusor" class="img-responsive thumbnail" /></center>
 
 <em>Homemade tabletop fusor. Image credit: <a href="http://en.wikipedia.org/wiki/Fusor#/media/File:Homemade_fusion_reactor.JPG" target="_blank">Wikipedia</a>.</em>
 

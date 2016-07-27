@@ -12,7 +12,7 @@ Although there is a complicated way to engineer the problem out of this - namely
 + faces with glasses
 + faces with sunglasses
 
-<img src="/uploads/convnet_class_set1.jpg" alt="Classes Test Set 1" />
+<center><img src="/uploads/convnet_class_set1.jpg" alt="Classes Test Set 1" class="img-responsive thumbnail" /></center>
 
 So what's the flaw with the above? Faces that have glasses and sunglasses *can also contain smiles and excitement*. As the human trainer, I know that if the photo contains sunglasses and glasses, I need to classify that feature as more important than the smile in the photo. Hence, the eyewear features are more important in hierarchy and should lead to that photo being classified as one of the glasses classes. The same goes if the glasses are absent - the features of the mouth then determine the class of the photo.
 
@@ -55,7 +55,7 @@ In general, a smiling mouth is the number one feature of a "smile" class. Howeve
 + faces with sunglasses
 + *faces with tongues sticking out*
 
-<img src="/uploads/convnet_class_set2.jpg" alt="Classes Test Set 2" />
+<center><img src="/uploads/convnet_class_set2.jpg" alt="Classes Test Set 2" class="img-responsive thumbnail" /></center>
 
 Note here we're using the same neural network parameters and training over 51 epochs - nearly 1/5 of previous training time. What were the results?
 
