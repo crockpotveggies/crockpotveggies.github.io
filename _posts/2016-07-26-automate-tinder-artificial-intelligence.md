@@ -17,13 +17,13 @@ Bernie A.I. relies on latest practices in artificial intelligence and uses convo
 
 `1,187,734 total efforts, 99.86% visual accuracy`
 
-We crunched the numbers on Bernie's accuracy using the new neural networks. Out of a sample size of `164,519` "efforts" (actions or events by Bernie) that involved visual selection of profiles, users only reversed Bernie `225` times. That's a total measured accuracy of `99.86%`, although we can safely assume a source of error is our user base not reviewing all efforts. Still damn good in my books 💪. Even more exciting is that as of writing this post, Bernie has performed a total of `1,187,734` efforts and our users have matched `6,871` times. That's a huge amount of work for a young A.I.!!
+We crunched the numbers on Bernie's accuracy using the new neural networks. Out of a sample size of `164,519` "efforts" (actions or events by Bernie) that involved visual selection of profiles, users only reversed Bernie `225` times. That's a total measured accuracy of `99.86%`, although we can safely assume a source of error is our user base not reviewing all efforts. Still damn good in my books 💪. Even more exciting is that as of writing this post, Bernie has performed a total of `1,187,734` efforts and our users have matched `6,871` times. That's a huge amount of work for a young A.I.!!!
 
-Each Bernie comes pre-trained, so he gets working for you the same day he signs up. This means he can start working on limited knowledge, and the more you train Bernie the better he will get at understanding the type of match you want.
+Each Bernie is pre-trained out of the box, so he gets working for you the same day he signs up. This means he can start working on limited knowledge, and the more you train Bernie the better he will get at understanding the type of match you want.
 
 <img src="/uploads/bernie_settings.jpg" alt="Bernie Settings | Automate Tinder Happn" />
 
-Bernie does everything the Tinderbox prototype did, and more. Bernie brings a more personified (and human) experience to online dating by summarizing everything to its master with words, and we leave the graphs and charts and stats to the background. Bernie still opens conversations with fun and random questions, and within a couple months time we'll be turning on the ability for Bernie to start a conversation based on the context of a match's profile picture. We already know that matches who receive contextual introductory messages are much more likely to respond, and we're doing everything we can to make this perfect.
+Bernie does everything the Tinderbox prototype did, and more. Bernie brings a more personified, human experience to online dating by summarizing in conversational language, and we leave the graphs and charts and stats to the background. Bernie still opens conversations with fun and random questions, and within a couple months time we'll be turning on the ability for Bernie to start a conversation based on the context of a match's profile picture. We already know that matches who receive contextual introductory messages are much more likely to respond, and we're doing everything we can to make this perfect.
 
 <img src="/uploads/bernie_efforts.jpg" alt="Bernie Dating Assistant | Automate Happn" />
 
