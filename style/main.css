@@ -71,8 +71,8 @@ pre{
 }
 
 .block{
-	padding-top:70px;
-	padding-bottom:70px;
+	padding-top:40px;
+	padding-bottom:40px;
 	border-bottom:1px dashed #d5d5d5;
 }
 
@@ -422,7 +422,7 @@ header .head-bar{
 }
 
 header .head-bar .head-item{
-	margin-bottom:50px;
+	margin-bottom:30px;
 	opacity:0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
