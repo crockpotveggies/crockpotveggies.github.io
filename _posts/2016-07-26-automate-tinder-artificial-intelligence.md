@@ -15,7 +15,7 @@ For those who don't know the history, Bernie is aptly named after Bernd Dittrich
 
 Bernie A.I. relies on latest practices in artificial intelligence and uses convolutional neural networks under the hood. After face-palming over my mistake to use Eigenfaces, I'm completely blown away by the accuracy we're given with neural nets - Bernie reports confidence for swipes averaging in the mid-80%. Just like Tesla autopilot, "undo" actions fed into Bernie help us to further increase his accuracy. Better yet, the training times in Bernie have been reduced to `17%` of what it used to take, a tremendous improvement from the early days.
 
-`1,187,734 total efforts, 99.86% visual accuracy`
+<h3>1,187,734 total efforts, 99.86% visual accuracy</h3>
 
 We crunched the numbers on Bernie's accuracy using the new neural networks. Out of a sample size of `164,519` "efforts" (actions or events by Bernie) that involved visual selection of profiles, users only reversed Bernie `225` times. That's a total measured accuracy of `99.86%`, although we can safely assume a source of error is our user base not reviewing all efforts. Still damn good in my books 💪. Even more exciting is that as of writing this post, Bernie has performed a total of `1,187,734` efforts and our users have matched `6,871` times. That's a huge amount of work for a young A.I.!!!
 
