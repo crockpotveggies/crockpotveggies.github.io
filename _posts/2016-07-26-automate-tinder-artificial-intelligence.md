@@ -3,7 +3,7 @@ layout: post
 title: Automating Tinder with Artificial Intelligence
 ---
 
-Back in 2014 I built a prototype that automated Tinder for me using Eigenfaces. After receiving an overwhelming response to the project, I've put together a team and made the technology accessible to everyone.
+Back in 2014 I built a prototype that automated Tinder for me using Eigenfaces. After an overwhelming response to the project, I put together a team, made the technology accessible to everyone, and bested selection accuracy.
 
 <center><img src="/uploads/bernie_login.jpg" alt="Bernie Dating Assistant | Automate Tinder" class="img-responsive thumbnail" /></center>
 
