@@ -19,7 +19,7 @@ Bernie A.I. relies on latest practices in artificial intelligence and uses convo
 
 We crunched the numbers on Bernie's accuracy using the new neural networks. Out of a sample size of `164,519` "efforts" (actions or events by Bernie) that involved visual selection of profiles, users only reversed Bernie `225` times. That's a total measured accuracy of `99.86%`, although we can safely assume a source of error is our users not reviewing all efforts. Still damn good in my books 💪. Even more exciting is that as of writing this post, Bernie has performed a total of `1,187,734` efforts and our users have matched `6,871` times. That's a huge amount of work for a young A.I.!!!
 
-Each Bernie is pre-trained out of the box, so he gets working for you the same day he signs up. Bernie can get started on limited knowledge, and the more you train Bernie the better he will understand the type of match you want. Better yet, the training times in Bernie have been reduced to `17%` of what it used to take, a tremendous improvement from the early days.
+Each Bernie is pre-trained out of the box, so he gets working for you immediately after sign up. Bernie can get started on limited knowledge, and the more you train Bernie the better he will understand the type of match you want. Better yet, the training times in Bernie have been reduced to `17%` of what it used to take, a tremendous improvement from the early days.
 
 <center><img src="/uploads/bernie_settings.jpg" alt="Bernie Settings | Automate Tinder Happn" class="img-responsive thumbnail" /></center>
 
