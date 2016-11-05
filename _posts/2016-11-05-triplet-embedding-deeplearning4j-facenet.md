@@ -15,7 +15,7 @@ Thanks to the help of [Alex Black](https://github.com/alexdblack), one of Skymin
 If you haven't read [the FaceNet Paper](https://arxiv.org/abs/1503.03832), it revealed a very interesting usage of neural network embeddings for the purpose of generating a representation of an input (in this case, a face). In simple terms, embeddings are mappings of relationships in data passed through a neural network. Word2Vec is an excellent example of using embeddings to map the relationships between words and use them for clustering, classification, and comparison. For the purpose of FaceNet, the embeddings are a mapping of facial features.
 
 <center>
-  <img src="/uploads/triplet_trainingloss.jpg" alt="Triplet Training Loss" class="img-responsive thumbnail" />
+  <img src="/uploads/triplet_trainingloss.png" alt="Triplet Training Loss" class="img-responsive thumbnail" />
   <br><small>Illustrative example of triplet training loss via <a href="http://reports-archive.adm.cs.cmu.edu/anon/2016/CMU-CS-16-118.pdf" target="_blank">OpenFace paper</a></small>
 </center>
 
