@@ -15,8 +15,8 @@ Thanks to the help of [Alex Black](https://github.com/alexdblack), one of Skymin
 If you haven't read [the FaceNet Paper](https://arxiv.org/abs/1503.03832), it revealed a very interesting usage of neural network embeddings for the purpose of generating a representation of an input (in this case, a face). In simple terms, embeddings are mappings of relationships in data passed through a neural network. Word2Vec is an excellent example of using embeddings to map the relationships between words and use them for clustering, classification, and comparison. For the purpose of FaceNet, the embeddings are a mapping of facial features.
 
 <center>
-  <img src="/uploads/triplet_hypersphere.jpg" alt="Triplet Training Loss" class="img-responsive thumbnail" />
-  <br><small>Illustrative example of triplet training loss via [OpenFace paper](http://reports-archive.adm.cs.cmu.edu/anon/2016/CMU-CS-16-118.pdf)</small>
+  <img src="/uploads/triplet_trainingloss.jpg" alt="Triplet Training Loss" class="img-responsive thumbnail" />
+  <br><small>Illustrative example of triplet training loss via <a href="http://reports-archive.adm.cs.cmu.edu/anon/2016/CMU-CS-16-118.pdf" target="_blank">OpenFace paper</a></small>
 </center>
 
 To properly train a neural network to create vision embeddings, you must split your data into triplets before passing through a network (there are also other ideas such as [center loss](http://ydwen.github.io/papers/WenECCV16.pdf) that I won't describe here). This involves passing three examples through the neural network, and examining the "loss" at the end. 3 images are passed, where the first *x* is the anchor class, and *x+* is a positive example of that image, and *x-* is a negative example of that image. This leads to 2D representations of each image placed on a hypersphere, and each subsequent representation can be compared, linearly. You no longer have to re-train the neural network in order to identify new objects or faces.
