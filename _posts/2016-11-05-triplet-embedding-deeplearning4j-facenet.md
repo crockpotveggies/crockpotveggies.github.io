@@ -3,14 +3,14 @@ layout: post
 title: Triplet Embeddings in Deeplearning4j - Adapting FaceNet
 ---
 
-Inspired by Google's FaceNet project and its open source variant, OpenFace, I decided to implement a java-based verion of triplet embeddings for the purpose of better vision comparison at Bernie AI.
+Inspired by Google's FaceNet project and OpenFace (and some help of Skymind.io), I implemented a java-based verion of triplet embeddings for the purpose of better computer vision at Bernie AI.
 
 <center>
   <img src="/uploads/triplet_facedetection.jpg" alt="Facial Landmarks Face Detection" class="img-responsive thumbnail" />
   <br><small>An example of facial landmark detection</small>
 </center>
 
-Thanks to the help of [Alex Black](https://github.com/alexdblack), one of Skymind's most knowledgeable engineers, I was able to write an implementation of triplet embeddings for [Deeplearning4j](https://deeplearning4j.org/). At [Bernie AI](http://www.bernie.ai/) we forked OpenFace and added a custom pipeline which resulted in tremendous improvements for facial comparisons for our users. However, as Bernie grew we quickly realized that the combination of Python and LUA were troublesome. It's not meant to develop high-concurrency mmicroservices. Hence, I knew it was time I ported our pipeline to the JVM and make a PR to Deeplearning4j.
+Thanks to the help of [Alex Black](https://github.com/alexdblack), one of Skymind's most knowledgeable engineers, I was able to write an implementation of triplet embeddings for [Deeplearning4j](https://deeplearning4j.org/) and create a variant of FaceNet for [Bernie AI](http://www.bernie.ai/). This work was prompted by performance issues from our fork of OpenFace to add a custom image pipeline, and a desire to continue improving the accuracy of facial comparisons for our users. As Bernie grew, the combination of Python and LUA became troublesome and we saw resource lock-ups - our fork was not meant to develop high-concurrency mmicroservices. Hence, it was time to port our facial comparison service to the JVM.
 
 If you haven't read [the FaceNet Paper](https://arxiv.org/abs/1503.03832), it revealed a very interesting usage of neural network embeddings for the purpose of generating a representation of an input (in this case, a face). In simple terms, embeddings are mappings of relationships in data passed through a neural network. Word2Vec is an excellent example of using embeddings to map the relationships between words and use them for clustering, classification, and comparison. For the purpose of FaceNet, the embeddings are a mapping of facial features.
 
