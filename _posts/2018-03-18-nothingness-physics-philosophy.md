@@ -36,7 +36,7 @@ These experiences are not merely linear, they are states in a broader cycle.
 - Species are collectively multiple generations with similar DNA.
 - Points A and B are part of a long-term pattern of travel, usually cyclical like the work day.
 
-So why is it that when we define the universe, we keep referring to "start" and "end" events such as the Big Bang? [](https://www.ias.edu/scholars/dijkgraaf) even defines an end to the universe. This method of thinking is concerning because it seems to dictate how we develop our theories of physics. And yes, you can't deny that the Big Bang is the result of astrophysical observation and additional evidence which points to the expansion of the universe. But why aren't we seriously considering this as part of a cyclical or complex process?
+So why is it that when we define the universe, we keep referring to "start" and "end" events such as the Big Bang? [Robert Dijkgraaf](https://www.ias.edu/scholars/dijkgraaf) himself defines an "end" to the universe. While Dijkgraaf's own research is based on superstring theory, this method of thinking is concerning because it seems to dictate how we interpret theories of physics. And yes, you can't deny that the Big Bang is the result of astrophysical observation and additional evidence which points to the expansion of the universe. But why aren't we consistently describing this as part of a cyclical or complex process?
 
 It's important to develop a new way of thinking that is useful to describe relationships that we do not understand or know.
 
